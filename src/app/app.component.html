@@ -1,0 +1,98 @@
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="home">Trainee Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+      <ul class="navbar-nav justify-content-center me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            Service Panel
+          </button>
+
+          
+
+        </li>
+        <li class="nav-item">
+          <!-- <a class="nav-link" routerLink="home">Home</a> -->
+          <button type="button" class="btn btn-light mx-2" routerLink="home">Home</button>
+        </li>
+        <li class="nav-item">
+          <!-- <a class="nav-link" routerLink="Courses">Courses</a> -->
+          <button type="button" class="btn btn-light mx-2" routerLink="courses">Courses</button>
+        </li>
+        
+        <li class="nav-item">
+
+          <!-- <a class="nav-link" routerLink="add">Add Trainee</a> -->
+        </li>
+        <li class="nav-item">
+        
+          <!-- <a class="nav-link" routerLink="list">List Trainee</a> -->
+        </li>
+        <li class="nav-item">
+          <!-- <a class="nav-link" routerLink="about">About</a> -->
+          <button type="button" class="btn btn-light mx-4" routerLink="about">About</button>
+        </li>
+
+        <li class="nav-item">
+          <button type="button" class="btn btn-success mx-2" routerLink="login">Login</button>
+        </li>
+  
+        <li class="nav-item">
+
+          <button type="button" class="btn btn-info mx-2" routerLink="register">SignUp!</button>
+        </li>
+        <li class="nav-item">
+
+          <button type="button" routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+        </li>
+
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" routerLink="delete">Coming Soon!</a>
+        </li> -->
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Start Canvas-->
+
+
+<!-- End Canvas -->
+
+
+<div class="container">
+  <div class="offcanvas offcanvas-top" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Service Panel Menu!</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Select Options Below!</p>
+      <button type="button" class="btn btn-light mx-3" routerLink="list">List Trainee</button>
+      <button type="button" class="btn btn-light mx-3" routerLink="add">Add Trainee</button>
+      <button type="button" class="btn btn-light mx-3" routerLink="profile-view">Profile</button>
+      <button type="button" class="btn btn-outline-danger mx-3">Quiz!</button>
+      <button type="button" class="btn btn-outline-warning mx-2">Store</button>
+      <button type="button" class="btn btn-outline-info mx-2">Updates!</button>
+      <button type="button" class="btn btn-outline-primary mx-2"><a routerLink="users">Users</a></button><br>
+      <button type="button" class="btn btn-outline-primary my-3 mx-3">MailBoX</button>
+    </div>
+  </div>
+  
+  <router-outlet></router-outlet>
+</div>
+
+<app-footer></app-footer>
+
+

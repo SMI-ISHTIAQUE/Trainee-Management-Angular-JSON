@@ -1,0 +1,198 @@
+{
+  "register": [
+    {
+      "name": "Ishtiaque",
+      "contact": "01225555555",
+      "email": "smi.mixed2@gmail.com",
+      "password": "1234567",
+      "id": 1
+    },
+    {
+      "name": "hello",
+      "contact": "01225555555",
+      "email": "hello@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "well",
+      "contact": "0123456789",
+      "email": "well@gmail.com",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "name": "Hello XYZ",
+      "contact": "012544555",
+      "email": "hello@gmail.com",
+      "password": "123654",
+      "id": 4
+    }
+  ],
+  "trainee": [
+    {
+      "id": "1267091",
+      "name": "Ishtiaque",
+      "email": "sm.ishtiaque@gmail.com",
+      "cell": "014789452136"
+    },
+    {
+      "id": "1236547",
+      "name": "Huawei",
+      "email": "huawei@gmail.com",
+      "cell": "880147852"
+    },
+    {
+      "id": "1234567",
+      "name": "upload man",
+      "email": "Uptodd@gmail.com",
+      "cell": "0123456789"
+    },
+    {
+      "id": "120022",
+      "name": "Fox",
+      "email": "Fox@gmail.com",
+      "cell": "0123456782"
+    },
+    {
+      "id": "1234785",
+      "name": "Harun",
+      "email": "harun@gmail.com",
+      "cell": "0123456789"
+    },
+    {
+      "id": "1200564",
+      "name": "Ishtiaque",
+      "email": "ishtiaque2@gmail.com",
+      "cell": "0123654798"
+    },
+    {
+      "id": "1323697",
+      "name": "Usama",
+      "email": "usama@gmail.com",
+      "cell": "0123456987"
+    },
+    {
+      "id": "1236589",
+      "name": "Ibrahim",
+      "email": "ibrahim",
+      "cell": "0123698547"
+    },
+    {
+      "id": "12364567",
+      "name": "EEEEE",
+      "email": "admin@gmail.com",
+      "cell": "01245454545"
+    }
+  ],
+  "empdata": [
+    {
+      "firstname": "Rohit",
+      "lastname": "Sharma",
+      "birthdate": "2022-01-12",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "Google",
+      "jobExperience": 20,
+      "salary": 50,
+      "profile": "Profile-03.jpg",
+      "id": 1
+    },
+    {
+      "firstname": "Amy",
+      "lastname": "Moore",
+      "birthdate": "2014-07-18",
+      "gender": "f",
+      "education": "diploma",
+      "company": "TCS",
+      "jobExperience": 3,
+      "salary": 10,
+      "profile": "Profile-05.jpg",
+      "id": 5
+    },
+    {
+      "firstname": "Peter ",
+      "lastname": "May",
+      "birthdate": "2007-07-06",
+      "gender": "m",
+      "education": "graduate",
+      "company": "Tudip",
+      "jobExperience": 4.5,
+      "salary": 9.5,
+      "profile": "Profile-01.jpg",
+      "id": 6
+    },
+    {
+      "firstname": "Prathamesh",
+      "lastname": "Shetty",
+      "birthdate": "1999-06-09",
+      "gender": "m",
+      "education": "graduate",
+      "company": "Accenture",
+      "jobExperience": 7.4,
+      "salary": 13,
+      "profile": "Profile-04.jpg",
+      "id": 8
+    },
+    {
+      "firstname": "Nikhil",
+      "lastname": "Rane",
+      "birthdate": "1980-05-23",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "FIS",
+      "jobExperience": 6,
+      "salary": 4.9,
+      "profile": "Profile-03.jpg",
+      "id": 9
+    },
+    {
+      "firstname": "Pooja",
+      "lastname": "Kumari",
+      "birthdate": "1990-08-30",
+      "gender": "f",
+      "education": "graduate",
+      "company": "Google",
+      "jobExperience": 12,
+      "salary": 35,
+      "profile": "Profile-05.jpg",
+      "id": 10
+    },
+    {
+      "firstname": "Yash",
+      "lastname": "Chauhan",
+      "birthdate": "1995-11-24",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "Fiserv",
+      "jobExperience": 13,
+      "salary": 25,
+      "profile": "Profile-03.jpg",
+      "id": 11
+    },
+    {
+      "firstname": "Zprogram",
+      "lastname": "Zcode",
+      "birthdate": "2022-11-30",
+      "gender": "m",
+      "education": "PhD",
+      "company": "Funny Inc.",
+      "jobExperience": 50,
+      "salary": 252000,
+      "profile": "zpro.JPG",
+      "id": 12
+    },
+    {
+      "firstname": "hhhh",
+      "lastname": "gggg",
+      "birthdate": "2022-11-15",
+      "gender": "m",
+      "education": "10th pass",
+      "company": "tgttt",
+      "jobExperience": 55,
+      "salary": 444444,
+      "profile": "zpro.JPG",
+      "id": 13
+    }
+  ]
+}
