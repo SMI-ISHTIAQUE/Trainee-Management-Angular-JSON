@@ -1,5 +1,5 @@
-# TraineeManagement
-- Trainee Management
+# Trainee Management
+- Trainee Manager
 - Search Function
 - Bootstrap
 - JSON Database
