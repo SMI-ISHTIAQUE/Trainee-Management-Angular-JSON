@@ -6,7 +6,7 @@
 - Angular
 
 # Project Preview
-https://www.youtube.com/watch?v=D0UwSKQKs7k
+✨https://www.youtube.com/watch?v=D0UwSKQKs7k
 
 ## Project SnapShots
 
